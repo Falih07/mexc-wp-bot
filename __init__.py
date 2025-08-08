@@ -1,4 +1,3 @@
-
 from .sma_crossover import Strategy as sma_crossover
 from .rsi import Strategy as rsi
 from .macd import Strategy as macd
