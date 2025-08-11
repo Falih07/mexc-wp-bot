@@ -1,0 +1,17 @@
+{
+  "ts": "2025-08-11T22:35:27.700001Z",
+  "symbol": "BTCUSDT",
+  "price": 118694.94,
+  "interval": "5m",
+  "paper_signals": {
+    "sma_crossover": -1,
+    "rsi": 0,
+    "macd": 1,
+    "bbands_mean_revert": 0,
+    "donchian_breakout": 0
+  },
+  "exec_strategy": "sma_crossover",
+  "live": false,
+  "action": "SELL",
+  "order": {}
+}
