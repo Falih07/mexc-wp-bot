@@ -31,9 +31,9 @@ def lot_filters(symbol):
 
 def last_signal(symbol, interval, strat_cls):
     data = klines(symbol, interval=interval, limit=200)
-    cols = ["open_time","open","high","low","close","volume","close_time","qav","num_trades","taker_buy_base","taker_buy_quote","ignore"]
+    cols = ["open_time","open","high","low","close","volume","close_time","quote_volume"]
     df = pd.DataFrame(data, columns=cols)
-    for c in ["open","high","low","close","volume"]:
+    for c in ["open","high","low","close","volume","quote_volume"]:
         df[c] = pd.to_numeric(df[c], errors="coerce")
     s = strat_cls().generate(df)
     return int(s["signal"].iloc[-1])
