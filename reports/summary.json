@@ -1,7 +1,7 @@
 {
-  "ts": "2025-08-11T23:10:38.787472Z",
+  "ts": "2025-08-11T23:29:19.120833Z",
   "symbol": "BTCUSDT",
-  "price": 118793.96,
+  "price": 118665.78,
   "interval": "5m",
   "paper_signals": {
     "sma_crossover": 1,
