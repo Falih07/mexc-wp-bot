@@ -1,10 +1,10 @@
 {
-  "ts": "2025-08-11T22:54:47.615527Z",
+  "ts": "2025-08-11T23:10:38.787472Z",
   "symbol": "BTCUSDT",
-  "price": 118902.36,
+  "price": 118793.96,
   "interval": "5m",
   "paper_signals": {
-    "sma_crossover": -1,
+    "sma_crossover": 1,
     "rsi": 0,
     "macd": 1,
     "bbands_mean_revert": 0,
@@ -12,6 +12,6 @@
   },
   "exec_strategy": "sma_crossover",
   "live": false,
-  "action": "SELL",
+  "action": "BUY",
   "order": {}
 }
