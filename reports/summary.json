@@ -1,17 +1,32 @@
 {
-  "ts": "2025-08-12T02:48:11.788374Z",
   "symbol": "BTCUSDT",
-  "price": 119143.53,
   "interval": "5m",
-  "paper_signals": {
-    "sma_crossover": 1,
-    "rsi": 0,
-    "macd": 1,
-    "bbands_mean_revert": 0,
-    "donchian_breakout": 0
-  },
-  "exec_strategy": "sma_crossover",
-  "live": false,
-  "action": "BUY",
-  "order": {}
+  "generated_at": "2025-08-12T03:38:15.780526Z",
+  "results": {
+    "sma_crossover": {
+      "final_equity": 1.0024571936245492,
+      "cum_return_pct": 0.25,
+      "last_signal": -1
+    },
+    "rsi": {
+      "final_equity": 0.9993126096426166,
+      "cum_return_pct": -0.07,
+      "last_signal": 0
+    },
+    "macd": {
+      "final_equity": 0.9950222809796413,
+      "cum_return_pct": -0.5,
+      "last_signal": 1
+    },
+    "bbands_mean_revert": {
+      "final_equity": 1.003571179880251,
+      "cum_return_pct": 0.36,
+      "last_signal": 0
+    },
+    "donchian_breakout": {
+      "final_equity": 0.9945332215339565,
+      "cum_return_pct": -0.55,
+      "last_signal": 0
+    }
+  }
 }
